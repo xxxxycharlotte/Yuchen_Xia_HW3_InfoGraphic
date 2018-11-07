@@ -1,0 +1,238 @@
+	html{
+				width: 100%;
+				padding: 0;
+				margin: 0;
+				background-color: #13232d
+			}
+			body{
+				margin: auto;
+				width: 1080px;
+				text-align: center;
+				position: absolute;
+				margin-left: 10%;
+				margin-right: 10%;
+
+			}
+			.bd-bg{
+				width:100%;margin: auto;position: absolute;z-index: -1;
+			}
+			.bd-bg-img{
+				width: 1080px;
+				height: auto;
+			}
+			.number{
+				width: 30px;
+				font-family: CenturyGothic;
+				font-size: 60px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+				float: left;
+				word-break: break-word;
+				line-height: 250px;
+				margin-right: 20px;
+				margin-left: 17px;
+			}
+			.bg-img{
+				position: absolute; margin-top: 1460px;z-index: 1;
+			}
+			.bg-img img{
+				z-index: 1;
+			}
+			.right-con{
+				width: 272px;height: 742px;background-color: #13232d;float: left;
+			}
+			.fol-f{
+				float: left;
+			}
+			.flo{
+				height: 742px;
+				float: left;
+			}
+			.one-tit{
+				font-family: Roboto-Light;
+				font-size: 48px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+			.one-text{
+			font-family: CenturyGothic;
+			font-size: 22px;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #aed0e4;
+			z-index: 999;
+			position: relative;
+			}
+			.subject{
+				margin: auto; margin-top: 1140px; width: 1080px;
+			}
+			.bg{
+				width: 134px;
+				height: 91px;
+				background-color: #1d3645;
+				margin-left: 20px;
+				font-family: CenturyGothic;
+				font-size: 18px;
+				font-weight: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+			}
+			.two-text{
+				width: 140px;
+				height: 181px;
+				font-family: CenturyGothic;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+			}
+			.two-text1{
+				width: 170px;
+				font-family: CenturyGothic;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+				margin-top: 120px;
+			}
+			.temperature{
+				display:inline-block;font-size: 48px; color:#ffd15c;margin-left: 20px;margin-top: 20px;
+			}
+			.three{
+				width: 143px;
+				height: 81px;
+				background-color: #1d3645;
+			}
+			.three-text{
+				font-family: Roboto-Light;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+			}
+			.three-text1{			
+				font-family: Roboto-Light;
+				font-size: 18px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #aed0e4;
+				width: 150px;
+			}
+			.three-top{
+				margin-top: 100px;			
+			}
+			.rotate{
+				margin-top: -20px;
+	      transform: rotate(0deg);
+	      animation: rot 5s linear infinite;
+	      /*animation-fill-mode: forwards;*/
+	  	}
+	  	@keyframes rot{
+	      from{transform: rotate(0deg)}
+	      to{transform: rotate(360deg)}
+	      
+	  	}
+	  	.tran1{
+	  		transform:rotate(30deg);
+	  	}
+	  	.tran2{
+	  		transform:rotate(-30deg);
+	  	}
+	  	.three-text2{
+	  		width: 50px;
+				height: 35px;
+				font-family: Roboto-Light;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #efc75e;
+				position: absolute; 
+				margin-left: 190px;			
+	  	}
+	  	.sun{
+	  		position: absolute;
+	  		width: 96px;
+				font-family: LetterGothicStd;
+				font-size: 60px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #ffd743;
+				margin-top: 250px;
+				margin-left: 300px;
+				cursor: pointer;
+	  	}
+	  	.star-text{
+	  		position: absolute;
+	  		width: auto;
+				font-family: LetterGothicStd;
+				font-size: 36px;
+				font-weight: normal;
+				font-stretch: normal;
+				letter-spacing: 0px;
+				color: #c7725c;
+				cursor: pointer;
+	  	}
+	  	.venus{
+	  		margin-top: 440px; margin-left: 130px;font-size: 30px;
+	  	}
+	  	.earth{
+	  		font-size: 30px;margin-top: 445px; margin-left: 770px;color: #0070ff;
+	  	}
+	  	.uranus{
+	  		font-size: 30px;margin-top:870px; margin-left: 150px;color: #0070ff;
+	  	}
+	  	.mars{
+	  		font-size: 30px;margin-top:870px; margin-left: 610px;color: #ff304c;
+	  	}
+	  	.neptune{
+	  		font-size: 30px;margin-top:955px; margin-left: 860px;color: #0070ff;
+	  	}
+	  	.saturn{
+	  		font-size: 48px;margin-top:990px; margin-left: 460px;color: #c29bd3;
+	  	}
+	  	.size{
+	  		font-size: 40px;
+	  	}
+	  	.bigsize{
+	  		font-size: 46px;
+	  	}
+	  	.suntext{
+	  		font-size: 70px;
+	  	}
+	  	.saturn-text{
+	  		font-size: 56px;
+	  	}
+	  	.tit-text{
+	  		line-height: 70px;
+	  		width:540px;
+	  		height:200px;
+	  		word-break:break-word;
+	  		text-align:center;
+	  		color: #ade0e4;
+	  		position: absolute;
+	  		margin-left: 500px;
+	  		font-size: 60px;
+	  	}
+	  	.logo{
+	  		position: absolute; 
+	  		margin-top: -352px;
+	  		margin-left: -159px;
+	  	}
+	  	.logo-img{
+	  		width: 600px;
+	  		height: 600px;
+	  	}
+	  	
