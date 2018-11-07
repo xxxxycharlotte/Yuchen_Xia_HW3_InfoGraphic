@@ -6,13 +6,22 @@ With the added feature of interactivity, information design can engage users in 
 targeted and manipulated to any desired outcome. 
 
 ##Get Started
-For this assiment, it includes html5, css3, javascrpit, php and AJAx
+For this assiment, it includes 
+*html5
+*css3
+*javascrpit
+*php
+*AJAx
 
-#html5
+##Html5
 
-##images
-All images used in this project are svg.  For example![image](https://github.com/xxxxycharlotte/Yuchen_Xia_HW3_InfoGraphic/blob/master/images/EARTH.svg")
+
+##Images
+All images used in this project are svg.  For example:
 <div align=center><img width="150" height="150" src="https://github.com/xxxxycharlotte/Yuchen_Xia_HW3_InfoGraphic/blob/master/images/EARTH.svg"/></div>
 
 ##Animation
-To actualized the animations, waypoints libraries are used in this projects  [wayponits cdn](https://cdnjs.com/libraries/waypoints)  [waypoints] (https://cdnjs.com/libraries/waypoints)
+To actualized the animations, waypoints libraries are used in this projects. [wayponits cdn](https://cdnjs.com/libraries/waypoints)  [waypoints] (https://cdnjs.com/libraries/waypoints)
+
+##Contributor
+Yuchen Xia
